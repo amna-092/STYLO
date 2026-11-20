@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Shop | Style Studio</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css"><script src="js/script.js" defer></script></head>
+<body>
+<div class="announcement">A LITTLE STYLE GOES A LONG WAY · NEW SEASON COLLECTION IS HERE</div>
+<header class="site-header"><a class="logo" href="index.html">STYLE<span>STUDIO</span></a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="nav"><a href="index.html">Home</a><a class="active" href="shop.html">Shop</a><a href="about.html">Our Story</a><a href="contact.html">Contact</a></nav><a class="bag-link" href="#cart">Bag <span class="cart-count">0</span></a></header>
+<main>
+  <section class="page-banner"><p class="eyebrow">FIND YOUR NEW FAVOURITE</p><h1>The collection.</h1><p>Easy pieces. Endless ways to wear them.</p></section>
+  <section class="section shop-layout">
+    <aside class="filters"><div class="filter-title"><h3>Find your style</h3><button id="clear-filters" class="text-button">Clear all</button></div>
+      <label for="search-input">Search</label><input id="search-input" type="search" placeholder="Try 'dress' or 'top'">
+      <label for="category-filter">Category</label><select id="category-filter"><option value="all">All categories</option><option value="Dresses">Dresses</option><option value="Tops">Tops & shirts</option><option value="Sets">Co-ord sets</option><option value="Bottoms">Bottoms</option></select>
+      <label for="sort-filter">Sort by</label><select id="sort-filter"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select>
+      <p class="filter-note">New looks are added to the collection regularly.</p>
+    </aside>
+    <div class="shop-results"><p class="results-count" id="results-count"></p><div class="product-grid" id="shop-products"></div></div>
+  </section>
+  <section class="section cart-section" id="cart"><div class="section-heading"><div><p class="eyebrow">YOUR SELECTED PIECES</p><h2>Shopping bag</h2></div></div><div id="cart-items" class="cart-items"></div><div class="cart-total"><strong>Total <span id="cart-total">Rs. 0</span></strong><button class="btn" id="checkout-button">CONTINUE TO CHECKOUT</button></div><p class="form-message" id="checkout-message" aria-live="polite"></p><p class="demo-note">Demo checkout: no payment will be collected.</p></section>
+</main>
+<footer class="footer"><div class="footer-main"><div><a class="logo logo-footer" href="index.html">STYLE<span>STUDIO</span></a><p>Everyday fashion, made your own.</p></div><div class="footer-links"><a href="shop.html">Shop</a><a href="about.html">Our story</a><a href="contact.html">Contact</a></div><div><p class="eyebrow">FOLLOW THE STYLE</p><p class="social-text">Instagram · Pinterest · Facebook</p></div></div><div class="footer-bottom"><small>© <span class="year"></span> Style Studio. Student demo fashion store.</small><small>Designed with style and care.</small></div></footer>
+</body></html>
